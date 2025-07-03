@@ -10,7 +10,10 @@ import CaseStudiesPage from '../pages/CaseStudiesPage';
 import BlogPage from '../pages/BlogPage';
 import FAQPage from '../pages/FAQPage';
 import ContactPage from '../pages/ContactPage';
-import BlogPostPage from '../pages/BlogPostPage'
+import BlogPostPage from '../pages/BlogPostPage';
+import AvisoLegal from '../pages/AvisoLegal';
+import Privacidad from '../pages/Privacidad';
+import Cookies from '../pages/Cookies'
 
 const AppRoutes = () => {
   return (
@@ -27,6 +30,9 @@ const AppRoutes = () => {
         <Route path="programas/renacimiento-celular" element={<RenacimientoCelularPage />}/>
         <Route path="programas/co-creacion" element={<CoCreacionPage />} />
         <Route path="/blog/:slug" element={<BlogPostPage />} />
+        <Route path="aviso-legal" element={<AvisoLegal />} />
+        <Route path="privacidad" element={<Privacidad />} />
+        <Route path="cookies" element={<Cookies />} />
 
       </Route>
     </Routes>

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Wind, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -67,8 +67,11 @@ const Hero = () => {
             className="hidden lg:flex justify-center"
           >
             <div className="relative">
-              <Wind className="h-72 w-72 text-white/10" />
-              <Wind className="absolute inset-0 h-72 w-72 text-primary-300 opacity-70" />
+              <img 
+                src='../src/assets/logo-trans.png'
+                alt="Logotipo Cyberespiración"
+                className="h-72 w-72 object-cover rounded-full "
+              />
               <div className="absolute inset-0 flex items-center justify-center">
                 <span className="text-3xl font-bold text-white">Cyberespiración</span>
               </div>

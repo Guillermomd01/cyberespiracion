@@ -69,15 +69,10 @@ const AboutPage = () => {
             <div>
               <h2 className="text-3xl font-bold text-primary-800 mb-6">Nuestra Misión</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Nuestra misión es proporcionar soluciones de ciberseguridad de vanguardia que 
-                permitan a las organizaciones operar con confianza en un entorno digital cada 
-                vez más complejo y amenazante. Nos comprometemos a proteger los activos digitales 
-                de nuestros clientes mediante servicios personalizados, prácticas innovadoras y 
-                un enfoque proactivo.
+                Nuestra misión es Facilitar herramientas simples y eficaces de respiración consciente para que cualquier persona las use a diario, promoviendo un bienestar integral en todos los ámbitos de la vida — personal, familiar y profesional.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Creemos que la seguridad no es solo una cuestión técnica, sino un pilar fundamental 
-                para el éxito empresarial sostenible en la era digital.
+                Sabemos que la respiración consciente puede reducir el estrés, mejorar el foco mental y fomentar la conexión cuerpo‑mente. Por eso, queremos que estas técnicas sean accesibles, prácticas y transformadoras, ayudando a conectar a las personas con su potencial sanador y emocional.
               </p>
             </div>
             
@@ -88,9 +83,9 @@ const AboutPage = () => {
                 destacando por nuestra excelencia técnica, integridad y compromiso con la innovación.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Visualizamos un mundo donde las organizaciones puedan aprovechar plenamente el potencial 
-                de la transformación digital sin comprometer su seguridad, y trabajamos cada día para 
-                hacer esta visión realidad.
+                Más allá del reconocimiento, queremos inspirar una nueva cultura de bienestar a través del poder de la respiración, ayudando a que miles de personas transformen sus vidas día a día.
+
+
               </p>
             </div>
           </div>
@@ -108,7 +103,7 @@ const AboutPage = () => {
               Nuestros Valores
             </h2>
             <p className="max-w-2xl mx-auto text-lg text-gray-600">
-              La respiración consciente es la llave maestra.
+              Haciendo consciente lo inconsciente
             </p>
           </div>
           

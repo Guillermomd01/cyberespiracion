@@ -21,10 +21,10 @@ export const navigationItems: NavItem[] = [
         label: 'Co-Creación',
         href: '/programas/co-creacion',
       },
-      {
+      /*{
         label: 'Máster de Cyberespiración',
         href: '/programas/master',
-      },
+      },*/
     ],
   },
   {

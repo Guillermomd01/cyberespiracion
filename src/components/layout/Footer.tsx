@@ -13,7 +13,7 @@ const Footer = () => {
               <span className="text-xl font-bold text-white">Cyberespiración</span>
             </Link>
             <p className="text-gray-400 max-w-xs">
-              Descubre el poder transformador de la respiración consciente para renovar tu cuerpo y mente.
+              Haciendo consciente lo inconsciente.
             </p>
             <div className="flex space-x-4">
               <a href="https://www.linkedin.com/in/jessicamu%C3%B1oz-respiracionconsciente/" className="text-gray-400 hover:text-white transition">
@@ -38,11 +38,11 @@ const Footer = () => {
                   Co-Creación
                 </Link>
               </li>
-              <li>
+              {/*<li>
                 <Link to="/programas/master" className="text-gray-400 hover:text-white transition">
                   Máster de Cyberespiración
                 </Link>
-              </li>
+              </li>*/}
             </ul>
           </div>
           

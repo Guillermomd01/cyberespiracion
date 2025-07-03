@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { serviceItems } from '../../data/services';
-import { Wind, Bot as Lotus, GraduationCap, ArrowRight } from 'lucide-react';
+import { Wind, Bot as Lotus, GraduationCap, ArrowRight, Stars } from 'lucide-react';
 
 const getIcon = (iconName: string) => {
   switch (iconName) {
@@ -9,6 +9,8 @@ const getIcon = (iconName: string) => {
       return <Lotus className="h-10 w-10 text-primary-600" />;
     case 'graduation-cap':
       return <GraduationCap className="h-10 w-10 text-primary-600" />;
+    case 'stars':
+      return <Stars className="h-10 w-10 text-primary-600" />;
     default:
       return <Wind className="h-10 w-10 text-primary-600" />;
   }

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ArrowRight, ShieldCheck, ShieldAlert, ClipboardCheck, GraduationCap } from 'lucide-react';
+import { ArrowRight, ShieldCheck, ShieldAlert, ClipboardCheck,Wind,Stars, GraduationCap } from 'lucide-react';
 import { serviceItems } from '../data/services';
 import Seo from '../components/Seo';
 import { Helmet } from 'react-helmet';
@@ -13,6 +13,10 @@ const getIcon = (iconName: string) => {
       return <ShieldAlert className="h-16 w-16 text-primary-600" />;
     case 'clipboard-check':
       return <ClipboardCheck className="h-16 w-16 text-primary-600" />;
+    case 'wind':
+      return <Wind className="h-16 w-16 text-primary-600" />;
+    case 'stars':
+      return <Stars className="h-16 w-16 text-primary-600" />;  
     case 'graduation-cap':
       return <GraduationCap className="h-16 w-16 text-primary-600" />;
     default:

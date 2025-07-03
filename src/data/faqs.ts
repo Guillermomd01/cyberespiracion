@@ -4,18 +4,18 @@ export const faqs: FAQ[] = [
   {
     id: 1,
     question: '¿Qué es la respiración consciente?',
-    answer: 'La respiración consciente es una práctica que implica prestar atención deliberada a nuestra respiración, aprendiendo a controlar su ritmo y profundidad. Esta técnica ayuda a reducir el estrés, mejorar la concentración y aumentar el bienestar general.',
+    answer: 'La respiración consciente es una práctica que implica prestar atención plena combinada con nuestras técnicas de hipnorespiración consciente. Esta técnica ayuda a reducir el estrés, mejorar la concentración y aumentar el bienestar general.',
     category: 'general',
   },
   {
     id: 2,
-    question: '¿Cuánto tiempo se necesita para ver resultados?',
-    answer: 'Los beneficios inmediatos como la reducción del estrés y la ansiedad pueden sentirse desde la primera sesión. Para cambios más profundos y duraderos, recomendamos una práctica regular durante al menos 4-6 semanas.',
+    question: '¿Puedo reducir el estrés con la respiración consciente?',
+    answer: 'Los beneficios inmediatos como la reducción del estrés y la ansiedad pueden sentirse desde la primera sesión. Para cambios más profundos y duraderos, recomendamos una práctica regular durante 4semanas.',
     category: 'resultados',
   },
   {
     id: 3,
-    question: '¿Cómo son las sesiones de respiración consciente?',
+    question: '¿Cómo son las sesiones de respiración consciente de Jessica Muñoz?',
     answer: 'Las sesiones combinan teoría y práctica, incluyendo ejercicios de respiración guiados, técnicas de meditación y herramientas para integrar la práctica en tu vida diaria. Cada sesión dura aproximadamente 90 minutos.',
     category: 'servicios',
   },

@@ -4,15 +4,15 @@ export const serviceItems: ServiceItem[] = [
   {
     id: 1,
     title: 'Renacimiento Celular',
-    description: 'Descubre el poder transformador de la respiración consciente para renovar tu cuerpo y mente a nivel celular.',
+    description: 'Descubre el poder transformador de la respiración consciente para liberar traumas e integrar nuevas memorias en tu subconsciente.',
     icon: 'wind',
     slug: 'renacimiento-celular',
   },
   {
     id: 2,
     title: 'Co-Creación',
-    description: 'Aprende a manifestar tus deseos y co-crear tu realidad a través de técnicas avanzadas de respiración consciente.',
-    icon: 'lotus',
+    description: 'Aprende a manifestar de forma acelerada tus deseos y co-crear tu realidad a través de técnicas avanzadas de respiración consciente.',
+    icon: 'stars',
     slug: 'co-creacion',
   },
   {

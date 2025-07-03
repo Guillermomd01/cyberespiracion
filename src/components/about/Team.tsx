@@ -11,7 +11,7 @@ const Team = () => {
             Nuestro Equipo
           </h2>
           <p className="max-w-2xl mx-auto text-lg text-gray-600">
-            Expertos en respiración consciente, comprometidos con el binestar.
+            Expertos en respiración consciente, comprometidos con el bienestar.
           </p>
         </div>
         
