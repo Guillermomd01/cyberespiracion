@@ -27,8 +27,8 @@ const AppRoutes = () => {
         <Route path="blog" element={<BlogPage />} />
         <Route path="faq" element={<FAQPage />} />
         <Route path="contacto" element={<ContactPage />} />
-        <Route path="programas/renacimiento-celular" element={<RenacimientoCelularPage />}/>
-        <Route path="programas/co-creacion" element={<CoCreacionPage />} />
+        <Route path="programas-respiracion-consciente/renacimiento-celular" element={<RenacimientoCelularPage />}/>
+        <Route path="programas-respiracion-consciente/co-creacion" element={<CoCreacionPage />} />
         <Route path="/blog/:slug" element={<BlogPostPage />} />
         <Route path="aviso-legal" element={<AvisoLegal />} />
         <Route path="privacidad" element={<Privacidad />} />

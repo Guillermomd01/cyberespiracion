@@ -10,9 +10,9 @@ const BASE_URL = 'https://cyberespiracion.com';
 const staticRoutes = [
     '/',
     '/sobre-nosotros',
-    '/programas',
-    '/programas/renacimiento-celular',
-    '/programas/co-creacion',
+    '/programas-respiracion-consciente',
+    '/programas-respiracion-consciente/renacimiento-celular',
+    '/programas-respiracion-consciente/co-creacion',
     '/casos-exito',
     '/blog',
     '/faq',
