@@ -29,12 +29,12 @@ const Footer = () => {
             <h3 className="text-white text-lg font-semibold mb-4">Programas</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/programas/renacimiento-celular" className="text-gray-400 hover:text-white transition">
+                <Link to="/programas-respiracion-consciente/renacimiento-celular" className="text-gray-400 hover:text-white transition">
                   Renacimiento Celular
                 </Link>
               </li>
               <li>
-                <Link to="/programas/co-creacion" className="text-gray-400 hover:text-white transition">
+                <Link to="/programas-respiracion-consciente/co-creacion" className="text-gray-400 hover:text-white transition">
                   Co-Creación
                 </Link>
               </li>

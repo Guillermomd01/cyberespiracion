@@ -11,15 +11,15 @@ export const navigationItems: NavItem[] = [
   },
   {
     label: 'Programas',
-    href: '/programas',
+    href: '/programas-respiracion-consciente',
     children: [
       {
         label: 'Renacimiento Celular',
-        href: '/programas/renacimiento-celular',
+        href: '/programas-respiracion-consciente/renacimiento-celular',
       },
       {
         label: 'Co-Creación',
-        href: '/programas/co-creacion',
+        href: '/programas-respiracion-consciente/co-creacion',
       },
       /*{
         label: 'Máster de Cyberespiración',

@@ -116,8 +116,9 @@ export default function RespiracionConscientePage() {
               "@context":"https://schema.org",
               "@type":"BreadcrumbList",
               "itemListElement":[
-                { "@type":"ListItem", "position":1, "name":"Inicio",              "item":"https://cyberespiracion.com/" },
-                { "@type":"ListItem", "position":2, "name":"Renacimiento Celular", "item":"https://cyberespiracion.com/renacimiento-celular" }
+                { "@type":"ListItem", "position":1, "name":"Inicio",                            "item":"https://cyberespiracion.com/" },
+                { "@type":"ListItem", "position":2, "name":"Programas Respiración Consciente", "item":"https://cyberespiracion.com/programas-respiracion-consciente" },
+                { "@type":"ListItem", "position":3, "name":"Co-Creación",                      "item":"https://cyberespiracion.com/programas-respiracion-consciente/renacimiento-celular" }
               ]
             }
             `}
