@@ -68,7 +68,7 @@ const Hero = () => {
           >
             <div className="relative">
               <img 
-                src="https://cyberespiracion.com/assets/logo-DBNaHsye.svg"
+                src="https://cyberespiracion.com/assets/logo-trans-wi7YkOB8.png"
                 alt="Logotipo Cyberespiración"
                 className="h-72 w-72 object-cover rounded-full "
               />

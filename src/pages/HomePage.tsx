@@ -29,7 +29,7 @@ const HomePage = () => {
       <Seo
         title="Inicio | Cyberespiración"
         description="Bienvenido a Cyberespiración: descubre técnicas de respiración consciente para mejorar tu bienestar corporal y mental."
-        image="https://cyberespiracion.com/assets/logo-DBNaHsye.svg"
+        image="https://cyberespiracion.com/assets/logo-trans-wi7YkOB8.png"
       />
       {/* FAQPage JSON-LD para las FAQs mostradas */}
       <Helmet>
