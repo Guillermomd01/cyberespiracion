@@ -27,18 +27,18 @@ const instructor = {
 
 const testimonials = [
   {
-    name: 'María López',
-    photo: '../src/assets/logo-trans.png',
+    name: '',
+    photo: "https://cyberespiracion.com/assets/logo-trans-wi7YkOB8.png",
     quote: 'Este curso me ayudó a reducir mi ansiedad y recuperar mi energía. ¡Increíble!'
   },
   {
-    name: 'Carlos Gómez',
-    photo: '../src/assets/logo-trans.png',
+    name: '',
+    photo: "https://cyberespiracion.com/assets/logo-trans-wi7YkOB8.png",
     quote: 'Las técnicas son claras, prácticas y transformadoras. Lo recomiendo al 100%.'
   },
   {
-    name: 'Ana Torres',
-    photo: '../src/assets/logo-trans.png',
+    name: '',
+    photo: "https://cyberespiracion.com/assets/logo-trans-wi7YkOB8.png",
     quote: 'La guía de Jessica es excepcional. Me siento más enfocado y en paz.'
   },
 ];
@@ -214,7 +214,12 @@ export default function RespiracionConscientePage() {
                 <img src={t.photo} alt={t.name} className="w-16 h-16 rounded-full mx-auto mb-4 object-cover" />
                 <p className="italic text-gray-700 mb-4">"{t.quote}"</p>
                 <p className="font-semibold text-gray-900">{t.name}</p>
-                <Star className="w-5 h-5 text-yellow-400 mx-auto mt-2" />
+                {/* 5 estrellas */}
+                <div className="flex justify-center mt-2">
+                  {[...Array(5)].map((_, idx) => (
+                    <Star key={idx} className="w-5 h-5 text-yellow-400 fill-current" />
+                  ))}
+                </div>
               </div>
             ))}
           </div>

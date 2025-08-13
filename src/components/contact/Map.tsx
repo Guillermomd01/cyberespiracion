@@ -57,7 +57,7 @@ const Map = () => {
             <Clock className="h-5 w-5 text-primary-600 mt-1 mr-3" />
             <div>
               <p className="font-medium">Horario</p>
-              <p className="text-gray-600">Lunes a Viernes: 10:00 - 18:00</p>
+              <p className="text-gray-600">Lunes a Viernes: 10:00 a 14:00 - 17:00 a 21:00</p>
             </div>
           </div>
         </div>

@@ -48,7 +48,7 @@ const ServicePreview = () => {
                 {service.description}
               </p>
               <Link
-                to={`/programas/${service.slug}`}
+                to={`/programas-respiracion-consciente/${service.slug}`}
                 className="inline-flex items-center text-primary-600 hover:text-primary-700 font-medium"
               >
                 Saber más
@@ -60,7 +60,7 @@ const ServicePreview = () => {
         
         <div className="text-center mt-12">
           <Link
-            to="/programas"
+            to="/programas-respiracion-consciente"
             className="inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-primary-600 hover:bg-primary-700 transition duration-200"
           >
             Ver todos nuestros programas

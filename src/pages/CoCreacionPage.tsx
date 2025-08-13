@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Wind, Users, Gift, Star, CheckCircle, Clock, Trophy, Heart, Zap, Target, Play, X } from 'lucide-react';
+import { Wind, Users, Gift, Star, CheckCircle, Clock, Trophy, Heart, Zap, Target, Play, X,Rocket, Unlock } from 'lucide-react';
 import Seo from '../components/Seo';
 import { Helmet } from 'react-helmet';
 
@@ -46,6 +46,21 @@ const testimonials = [
         title: 'Autosanación Interior',
         description: 'Potencia tu capacidad natural de sanación y transformación personal',
         icon: Heart
+    },
+    {
+        title: 'Materialización Acelerada',
+        description: 'Acelera la manifestación de tus metas y sueños con mayor claridad y enfoque',
+        icon: Rocket
+    },
+    {
+        title: 'Mejora de relaciones Personales y Profesionales',
+        description: 'Fortalece vínculos y crea conexiones más sanas y constructivas en todos los ámbitos',
+        icon: Users
+    },
+    {
+        title: 'Superacción de adicciones',
+        description: 'Libérate de hábitos y dependencias que limitan tu bienestar y libertad',
+        icon: Unlock
     }
     ];
 

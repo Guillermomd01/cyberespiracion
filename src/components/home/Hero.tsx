@@ -45,7 +45,7 @@ const Hero = () => {
               className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"
             >
               <Link
-                to="/programas"
+                to="/programas-respiracion-consciente"
                 className="inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium bg-accent-500 hover:bg-accent-600 transition duration-200"
               >
                 Descubre nuestros programas
