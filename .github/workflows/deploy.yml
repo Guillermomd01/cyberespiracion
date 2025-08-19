@@ -1,0 +1,45 @@
+name: Publicar nuevo blog
+
+on:
+  repository_dispatch:
+    types: [new-blog-post]
+
+jobs:
+  update-blog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Actualizar blog.ts
+        run: |
+          node scripts/addPost.js \
+            --slug "${{ github.event.client_payload.post_slug }}" \
+            --title "${{ github.event.client_payload.post_title }}" \
+            --excerpt "${{ github.event.client_payload.post_excerpt }}" \
+            --ogImage "${{ github.event.client_payload.post_ogImage }}" \
+            --content-b64 "${{ github.event.client_payload.post_content_b64 }}" \
+            --author "Jessica Muñoz"
+
+      - name: Commit y push
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add src/data/blog.ts
+          git commit -m "Nuevo post: ${{ github.event.client_payload.post_title }}"
+          git push origin main
+
+      - name: Deploy a Hostinger
+        uses: SamKirkland/ftp-deploy-action@v4.3.5
+        with:
+          server: ${{ secrets.HOSTINGER_FTP_SERVER }}
+          username: ${{ secrets.HOSTINGER_FTP_USERNAME }}
+          password: ${{ secrets.HOSTINGER_FTP_PASSWORD }}
+          local-dir: ./dist
+          server-dir: /public_html
+
