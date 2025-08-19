@@ -3,6 +3,9 @@ name: Publicar nuevo blog
 on:
   repository_dispatch:
     types: [new-blog-post]
+    
+permissions:
+  contents: write
 
 jobs:
   update-blog:
