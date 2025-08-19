@@ -1,46 +1,44 @@
-name: Deploy Blog to Hostinger
+name: Publicar nuevo blog
 
 on:
-  workflow_dispatch:
   repository_dispatch:
     types: [new-blog-post]
-  push:
-    paths:
-      - 'src/data/blog.ts'
 
 jobs:
-  build-and-deploy:
+  update-blog:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: '18'
-          cache: 'npm'
-          
-      - name: Install dependencies
-        run: npm ci
-        
-      - name: Build project
-        run: npm run build
-        
-      - name: Deploy to Hostinger
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+          node-version: 18
+
+      - name: Actualizar blog.ts
+        run: |
+          echo "Añadiendo nuevo post con slug ${{ github.event.client_payload.post_slug }}"
+          # Aquí deberías tener un script que actualice src/data/blog.ts con los datos
+          # Por ejemplo, podrías tener un script en Node o bash para insertar el nuevo post.
+          node scripts/addPost.js \
+            --slug "${{ github.event.client_payload.post_slug }}" \
+            --title "${{ github.event.client_payload.post_title }}"
+
+      - name: Commit y push
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add src/data/blog.ts
+          git commit -m "Nuevo post: ${{ github.event.client_payload.post_title }}"
+          git push origin main
+
+      - name: Deploy a Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4
         with:
           server: ${{ secrets.HOSTINGER_FTP_SERVER }}
           username: ${{ secrets.HOSTINGER_FTP_USERNAME }}
           password: ${{ secrets.HOSTINGER_FTP_PASSWORD }}
-          local-dir: ./dist/
-          server-dir: /public_html/
-          exclude: |
-            **/.git*
-            **/.git*/**
-            **/node_modules/**
-            **/.env*
-            
-      - name: Notify completion
-        run: echo "✅ Blog deployed successfully to Hostinger!"
+          local-dir: ./dist
+          server-dir: /public_html
+
