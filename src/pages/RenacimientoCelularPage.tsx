@@ -21,7 +21,7 @@ import {
 const instructor = {
   name: 'Jessica Muñoz',
   title: 'Experta en Respiración Consciente',
-  bio: 'Más de 10 años guiando a miles de personas a transformar su vida a través del poder de la respiración.',
+  bio: 'Hola, soy Jessica Muñoz, la persona detrás de Cyberespiración. Con más de 10 años guiando a miles de personas a transformar su vida a través del poder de la respiración. Mi misión es simple pero profunda: ayudarte a reconectar con tu respiración para que vivas con más calma, energía y claridad.',
   photo: '../src/assets/jessica-munoz.jpeg',
 };
 
@@ -161,15 +161,24 @@ export default function RespiracionConscientePage() {
 
       {/* Instructor */}
       <section id="instructor" className="py-20 bg-white">
-        <div className="container mx-auto flex flex-col md:flex-row items-center px-6">
-          <img src={instructor.photo} alt={instructor.name} className="w-48 h-48 rounded-full object-cover mb-6 md:mb-0 md:mr-8 shadow-lg" />
-          <div>
-            <h2 className="text-3xl font-bold mb-2">Yo soy {instructor.name}</h2>
-            <p className="text-lg text-gray-700 mb-4">{instructor.title}</p>
-            <p className="text-gray-600">{instructor.bio}</p>
-          </div>
-        </div>
-      </section>
+  <div className="container mx-auto flex flex-col md:flex-row items-center px-6 md:px-12 gap-10">
+    
+    <div className="flex-shrink-0 flex justify-center md:justify-start">
+      <img
+        src={instructor.photo}
+        alt={instructor.name}
+        className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-2xl border-4 border-white"
+      />
+    </div>
+    
+    <div className="flex flex-col justify-center text-center md:text-left max-w-2xl">
+      <h2 className="text-4xl font-bold mb-3">Yo soy {instructor.name}</h2>
+      <p className="text-xl text-gray-700 mb-5">{instructor.title}</p>
+      <p className="text-lg text-gray-600 leading-relaxed">{instructor.bio}</p>
+    </div>
+    
+  </div>
+</section>
 
       {/* Beneficios */}
       <section className="py-20 bg-gray-50">
