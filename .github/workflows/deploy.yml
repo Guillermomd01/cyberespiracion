@@ -31,8 +31,11 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add src/data/blog.ts
-          git commit -m "Nuevo post: ${{ github.event.client_payload.post_title }}"
+          git diff --cached --quiet || git commit -m "Nuevo post: ${{ github.event.client_payload.post_title }}"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
           git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITUHB_TOKEN }}
 
       - name: Deploy a Hostinger
         uses: SamKirkland/ftp-deploy-action@v4.3.5
