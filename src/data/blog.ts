@@ -14,6 +14,17 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1755645393079,
+    slug: 'terapia-grupal-mindful-consciencia',
+    title: 'Explorando los Grupos de Terapia Consciente: Beneficios, Métodos y Accesibilidad',
+    excerpt: 'Descubre cómo los grupos de terapia consciente combinan mindfulness y psicología para tratar ansiedad, depresión y más. ¿Considerarías unirte? Lee más aquí.',
+    date: '2025-08-19',
+    updatedAt: '2025-08-19',
+    author: 'Jessica Muñoz',
+    ogImage: 'https://media.licdn.com/dms/image/v2/D560BAQHOyAALNFAICg/company-logo_200_200/company-logo_200_200/0/1696290525425/mindful_therapy_group_logo?e=2147483647&v=beta&t=cvbnTb3UfeE1a1KvsdhYO75qUxNtvGkriRsrZKQT-0o',
+    content: ``,
+  },
+  {
     id: 1755644397984,
     slug: 'grupo-terapia-mindful-innovador',
     title: 'El innovador enfoque del Mindful Therapy Group: apoyo administrativo y crecimiento para terapeutas',
