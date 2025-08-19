@@ -18,12 +18,13 @@ jobs:
 
       - name: Actualizar blog.ts
         run: |
-          echo "Añadiendo nuevo post con slug ${{ github.event.client_payload.post_slug }}"
-          # Aquí deberías tener un script que actualice src/data/blog.ts con los datos
-          # Por ejemplo, podrías tener un script en Node o bash para insertar el nuevo post.
           node scripts/addPost.js \
             --slug "${{ github.event.client_payload.post_slug }}" \
-            --title "${{ github.event.client_payload.post_title }}"
+            --title "${{ github.event.client_payload.post_title }}" \
+            --excerpt "${{ github.event.client_payload.post_excerpt }}" \
+            --ogImage "${{ github.event.client_payload.post_ogImage }}" \
+            --content "${{ github.event.client_payload.post_content }}" \
+            --author "Jessica Muñoz"
 
       - name: Commit y push
         run: |
