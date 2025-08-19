@@ -14,6 +14,17 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1755644397984,
+    slug: 'grupo-terapia-mindful-innovador',
+    title: 'El innovador enfoque del Mindful Therapy Group: apoyo administrativo y crecimiento para terapeutas',
+    excerpt: 'Discover how Mindful Therapy Group empowers mental health providers with innovative support while connecting clients to therapy rooted in mindfulness practices.',
+    date: '2025-08-19',
+    updatedAt: '2025-08-19',
+    author: 'Jessica Muñoz',
+    ogImage: 'https://media.licdn.com/dms/image/v2/D560BAQHOyAALNFAICg/company-logo_200_200/company-logo_200_200/0/1696290525425/mindful_therapy_group_logo?e=2147483647&v=beta&t=cvbnTb3UfeE1a1KvsdhYO75qUxNtvGkriRsrZKQT-0o',
+    content: ``,
+  },
+  {
     id: 1,
     slug: 'beneficios-respiracion-consciente',
     title: 'Los 5 beneficios principales de la respiración consciente',
