@@ -40,6 +40,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Build del proyecto
+        run: npm run build
+
+      - name: Verificar carpeta dist
+        run: ls -la && ls -la dist/
+
       - name: Deploy a Hostinger
         uses: SamKirkland/ftp-deploy-action@v4.3.5
         with:
