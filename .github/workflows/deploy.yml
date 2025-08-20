@@ -18,6 +18,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+      - name: Guardar contenido del post en una variable de entorno
+        run: |
+          echo "POST_CONTENT<<EOF" >> $GITHUB_ENV
+          echo "${{ github.event.client_payload.post_content }}" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
 
       - name: Actualizar blog.ts
         run: |
@@ -26,7 +32,7 @@ jobs:
             --title "${{ github.event.client_payload.post_title }}" \
             --excerpt "${{ github.event.client_payload.post_excerpt }}" \
             --ogImage "${{ github.event.client_payload.post_ogImage }}" \
-            --content "${{ github.event.client_payload.post_content }}" \
+            --content "$POST_CONTENT" \
             --author "Jessica Muñoz"
 
       - name: Commit y push
