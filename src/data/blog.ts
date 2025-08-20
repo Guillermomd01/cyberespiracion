@@ -14,6 +14,17 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1755682136834,
+    slug: 'cinco-adiestramientos-atencion-plena',
+    title: 'Los Cinco Adiestramientos de la Atención Plena: Guía Ética para la Transformación Personal y el Bienestar',
+    excerpt: 'Discover the transformative power of the Five Mindfulness Trainings. Learn how these ethical commitments promote compassion, peace, and personal growth in daily life.',
+    date: '2025-08-20',
+    updatedAt: '2025-08-20',
+    author: 'Jessica Muñoz',
+    ogImage: 'https://m.media-amazon.com/images/I/61YsgSZMziL._UF1000,1000_QL80_.jpg',
+    content: ``,
+  },
+  {
     id: 1755645393079,
     slug: 'terapia-grupal-mindful-consciencia',
     title: 'Explorando los Grupos de Terapia Consciente: Beneficios, Métodos y Accesibilidad',
