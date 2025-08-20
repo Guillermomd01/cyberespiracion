@@ -14,6 +14,17 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1755683157103,
+    slug: 'cinco-entrenamientos-atencion-plena',
+    title: 'Los Cinco Entrenamientos de Atención Plena: Una Guía para Vivir con Ética y Consciencia',
+    excerpt: 'Discover the Five Mindfulness Trainings, ethical principles rooted in Buddhism, to cultivate compassion, happiness, and mindful living in daily life.',
+    date: '2025-08-20',
+    updatedAt: '2025-08-20',
+    author: 'Jessica Muñoz',
+    ogImage: 'https://m.media-amazon.com/images/I/61YsgSZMziL._UF1000,1000_QL80_.jpg',
+    content: ``,
+  },
+  {
     id: 1755682136834,
     slug: 'cinco-adiestramientos-atencion-plena',
     title: 'Los Cinco Adiestramientos de la Atención Plena: Guía Ética para la Transformación Personal y el Bienestar',
