@@ -14,6 +14,17 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1755688225394,
+    slug: 'centro-atencion-plena-ucsd',
+    title: 'Centro de Atención Plena de UCSD: Programas e Impacto en Mindfulness y Auto-Compasión',
+    excerpt: 'Discover how the UCSD Center for Mindfulness promotes stress relief, resilience, and self-compassion through research-backed mindfulness programs and training.',
+    date: '2025-08-20',
+    updatedAt: '2025-08-20',
+    author: 'Jessica Muñoz',
+    ogImage: 'https://i1.sndcdn.com/avatars-000642299796-z9hiy3-t1080x1080.jpg',
+    content: ``,
+  },
+  {
     id: 1755684215375,
     slug: 'cinco-adiestramientos-atencion-plena',
     title: 'Los Cinco Adiestramientos de la Atención Plena: Guía Ética y Práctica para una Vida Consciente',
