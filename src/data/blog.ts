@@ -14,17 +14,6 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
-    id: 1755692591040,
-    slug: 'insight-timer-aplicacion-meditacion',
-    title: 'Guía completa sobre Insight Timer: características, beneficios y cómo mejorar tu bienestar con esta app de meditación',
-    excerpt: 'Discover Insight Timer, the leading meditation app with free guided meditations, music, sleep tools, and a thriving mindfulness community. Start your journey!',
-    date: '2025-08-20',
-    updatedAt: '2025-08-20',
-    author: 'Jessica Muñoz',
-    ogImage: 'https://betterinstitute.com/wp-content/uploads/2023/07/July31.png',
-    content: ``,
-  },
-  {
     id: 1,
     slug: 'beneficios-respiracion-consciente',
     title: 'Los 5 beneficios principales de la respiración consciente',
