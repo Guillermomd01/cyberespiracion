@@ -38,7 +38,7 @@ jobs:
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
           git push origin main
         env:
-          GITHUB_TOKEN: ${{ secrets.GITUHB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy a Hostinger
         uses: SamKirkland/ftp-deploy-action@v4.3.5
@@ -47,5 +47,5 @@ jobs:
           username: ${{ secrets.HOSTINGER_FTP_USERNAME }}
           password: ${{ secrets.HOSTINGER_FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: /public_html
+          server-dir: /public_html/
 
