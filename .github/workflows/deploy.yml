@@ -24,6 +24,10 @@ jobs:
           echo "${{ github.event.client_payload.post_content }}" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
+      - name: Depurar contenido del post
+        run: |
+          echo "El contenido del post es:"
+          echo "$POST_CONTENT"
 
       - name: Actualizar blog.ts
         run: |
