@@ -13,8 +13,7 @@ const slug = getArg("--slug");
 const title = getArg("--title");
 const excerpt = getArg("--excerpt", "Nuevo post de respiración consciente");
 const ogImage = getArg("--ogImage", "https://via.placeholder.com/600x400");
-const contentB64 = getArg("--content-b64", "");
-const content = Buffer.from(contentB64, "base64").toString("utf8");
+const content = getArg("--content", "");   // <-- ya no va en base64
 const author = getArg("--author", "Jessica Muñoz");
 
 const filePath = path.resolve("src/data/blog.ts");
@@ -49,4 +48,3 @@ fileContent = fileContent.replace(
 fs.writeFileSync(filePath, fileContent, "utf8");
 
 console.log("✅ Nuevo post insertado:", slug);
-
