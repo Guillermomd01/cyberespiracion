@@ -14,6 +14,17 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1755693412956,
+    slug: 'insight-timer-aplicacion-meditacion',
+    title: 'Insight Timer: La Mejor Aplicación de Meditación para Principiantes y Expertos',
+    excerpt: 'Discover Insight Timer, the free meditation app with guided meditations, music, sleep aids, and a customizable timer. Perfect for beginners and experts!',
+    date: '2025-08-20',
+    updatedAt: '2025-08-20',
+    author: 'Jessica Muñoz',
+    ogImage: 'https://betterinstitute.com/wp-content/uploads/2023/07/July31.png',
+    content: ``,
+  },
+  {
     id: 1755692591040,
     slug: 'insight-timer-aplicacion-meditacion',
     title: 'Guía completa sobre Insight Timer: características, beneficios y cómo mejorar tu bienestar con esta app de meditación',
