@@ -14,17 +14,6 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
-    id: 1755706947573,
-    slug: 'ucsd-mindfulness-atencion-plena',
-    title: 'UCSD Mindfulness: Liderando la Revolución de la Atención Plena y el Bienestar',
-    excerpt: 'Descubre cómo UCSD lidera el campo del mindfulness con programas innovadores como MBSR y MBCT, recursos únicos y formación profesional en atención plena.',
-    date: '2025-08-20',
-    updatedAt: '2025-08-20',
-    author: 'Jessica Muñoz',
-    ogImage: 'https://i1.sndcdn.com/avatars-000642299796-z9hiy3-t1080x1080.jpg',
-    content: ``,
-  },
-  {
     id: 1,
     slug: 'beneficios-respiracion-consciente',
     title: 'Los 5 beneficios principales de la respiración consciente',

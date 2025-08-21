@@ -13,7 +13,7 @@ const slug = getArg("--slug");
 const title = getArg("--title");
 const excerpt = getArg("--excerpt", "Nuevo post de respiración consciente");
 const ogImage = getArg("--ogImage", "https://via.placeholder.com/600x400");
-const content = getArg("--content", process.env.POST_CONTENT || "");
+const content = (process.env.POST_CONTENT || "").replace(/`/g, "\\`");
 const author = getArg("--author", "Jessica Muñoz");
 
 const filePath = path.resolve("src/data/blog.ts");
