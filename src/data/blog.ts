@@ -14,6 +14,17 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1755773048689,
+    slug: 'musica-atencion-plena-para-ninos',
+    title: 'La música de atención plena para niños: cómo mejorar su bienestar emocional y cognitivo',
+    excerpt: 'Discover the benefits of mindfulness music for kids! Learn how it boosts emotional well-being, focus, sleep, and academic success with simple practices.',
+    date: '2025-08-21',
+    updatedAt: '2025-08-21',
+    author: 'Jessica Muñoz',
+    ogImage: 'https://i.ytimg.com/vi/XgxRHa26JLo/maxresdefault.jpg',
+    content: ``,
+  },
+  {
     id: 1755772130965,
     slug: 'musica-atencion-plena-para-ninos',
     title: 'La música de atención plena para niños: cómo mejorar su bienestar emocional y cognitivo',
