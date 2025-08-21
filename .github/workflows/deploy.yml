@@ -34,7 +34,6 @@ jobs:
             --title "${{ github.event.client_payload.post_title }}" \
             --excerpt "${{ github.event.client_payload.post_excerpt }}" \
             --ogImage "${{ github.event.client_payload.post_ogImage }}" \
-            --content "$POST_CONTENT" \
             --author "Jessica Muñoz"
 
       - name: Commit y push
