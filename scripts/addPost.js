@@ -17,12 +17,12 @@ const author = getArg("--author", "Jessica Muñoz");
 
 // Mejorar la lectura del contenido
 let content = "";
-const contentFile = getArg("--post-content");
+const contentFile = getArg("--post-content"); // Variable corregida
 const contentArg = getArg("--content");
 
-if (postContentFile && fs.existsSync(postContentFile)) {
+if (contentFile && fs.existsSync(contentFile)) {
   // Leer desde archivo (método más seguro para contenido largo)
-  content = fs.readFileSync(PostContentFile, "utf8").trim();
+  content = fs.readFileSync(contentFile, "utf8").trim();
 } else if (contentArg) {
   // Leer desde argumento
   content = contentArg;
@@ -41,6 +41,7 @@ if (!slug || !title || !content) {
   console.error("Uso: node addPost.js --slug SLUG --title TITLE --content CONTENT");
   process.exit(1);
 }
+
 // === Leer el archivo actual ===
 let fileContent = fs.readFileSync(filePath, "utf8");
 

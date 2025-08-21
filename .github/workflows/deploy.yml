@@ -18,15 +18,18 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-      - name: Guardar contenido del post en una variable de entorno
+
+      - name: Crear archivo temporal con contenido del post
         run: |
-          echo "POST_CONTENT<<EOF" >> $GITHUB_ENV
-          echo "${{ github.event.client_payload.post_content }}" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
+          echo '${{ github.event.client_payload.post_content }}' > /tmp/post_content.txt
+
       - name: Depurar contenido del post
         run: |
           echo "El contenido del post es:"
-          echo "$POST_CONTENT"
+          head -10 /tmp/post_content.txt
+          echo "..."
+          echo "Total de líneas: $(wc -l < /tmp/post_content.txt)"
+
       - name: Actualizar blog.ts
         run: |
           node scripts/addPost.js \
@@ -34,7 +37,7 @@ jobs:
             --title "${{ github.event.client_payload.post_title }}" \
             --excerpt "${{ github.event.client_payload.post_excerpt }}" \
             --ogImage "${{ github.event.client_payload.post_ogImage }}" \
-            --author "Jessica Muñoz"
+            --author "Jessica Muñoz" \
             --post-content "/tmp/post_content.txt"
 
       - name: Commit y push
@@ -65,4 +68,3 @@ jobs:
           password: ${{ secrets.HOSTINGER_FTP_PASSWORD }}
           local-dir: ./dist/
           server-dir: /public_html/
-
