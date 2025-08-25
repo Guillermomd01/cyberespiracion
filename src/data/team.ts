@@ -1,4 +1,6 @@
 import { TeamMember } from '../types';
+import jessicaImg from '..src//assets/jessica.png';
+import guillermoImg from '..src//assets/guillermo.png';
 
 
 export const teamMembers: TeamMember[] = [
@@ -7,7 +9,7 @@ export const teamMembers: TeamMember[] = [
     name: 'Jessica Muñoz',
     role: 'Fundadora y Maestra Principal',
     bio: 'Experta en técnicas de respiración consciente con más de 10 años de experiencia. Certificada en múltiples disciplinas de meditación y mindfulness.',
-    image: '../src/assets/jessica.png',
+    image: jessicaImg,
     linkedin: 'https://www.linkedin.com/in/jessicamu%C3%B1oz-respiracionconsciente/',
   },
   {
@@ -15,7 +17,7 @@ export const teamMembers: TeamMember[] = [
     name: 'Guillermo Muñoz',
     role: 'Developer',
     bio: 'Especialista Inteligencia Artificial y Programación.',
-    image: '../src/assets/guillermo.png',
+    image: guillermoImg,
     linkedin: "https://www.linkedin.com/in/guillermo-mu%C3%B1oz-diaz/"
   },
   /** {
