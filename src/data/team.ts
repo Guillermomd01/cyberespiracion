@@ -1,6 +1,6 @@
 import { TeamMember } from '../types';
-import jessicaImg from '../src/assets/jessica.png';
-import guillermoImg from '../src/assets/guillermo.png';
+import jessicaImg from '../assets/jessica.png';
+import guillermoImg from '../assets/guillermo.png';
 
 
 export const teamMembers: TeamMember[] = [
