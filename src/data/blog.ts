@@ -14,6 +14,127 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1756140718284,
+    slug: 'mindfulness-mark-williams-vida-trabajo',
+    title: 'Descubriendo el Mindfulness con Mark Williams: Su Vida, Trabajo e Impacto en la Psicología Moderna',
+    excerpt: 'Descubre cómo Mark Williams revolucionó el mindfulness con la MBCT, influenciando la psicología moderna. Aprende sobre su vida, sus obras y su legado.',
+    date: '2025-08-25',
+    updatedAt: '2025-08-25',
+    author: 'Jessica Muñoz',
+    ogImage: 'https://m.media-amazon.com/images/I/51S-BrGgp5L._UF1000,1000_QL80_.jpg',
+    content: `<h1 style="border-bottom: 2px solid #00c2ff; padding-bottom: 5px;">Descubriendo la Atención Plena: Una Mirada a la Vida y Trabajo de Mark Williams</h1>
+<br><br>
+<p style="font-size: 20px;">Estimated reading time: 6 minutes</p>
+<br><br>
+<h2 style="border-bottom: 2px solid #00c2ff; padding-bottom: 5px;"><strong>Key Takeaways</strong></h2>
+<br><br>
+<ul>
+  <li><strong>Mark Williams</strong> es cofundador de la Terapia Cognitiva basada en la Atención Plena (MBCT) que ayuda a prevenir la depresión.</li>
+  <br><br>
+  <li>Ha fundado importantes centros de atención plena en las universidades de Oxford y Bangor.</li>
+  <br><br>
+  <li>Es coautor de libros fundamentales que hacen accesible la atención plena a todos. Ver más en <a href="/blog/libros-mark-williams" style="color: #00c2ff;">"libros de Mark Williams"</a>.</li>
+  <br><br>
+  <li>Su enfoque promueve la autocomprensión y la aceptación a través de la práctica de la atención plena.</li>
+  <br><br>
+  <li>El trabajo de Williams ha influido en la psicología moderna y la autoayuda, beneficiando a millones.</li>
+</ul>
+<br><br>
+<h2 style="border-bottom: 2px solid #00c2ff; padding-bottom: 5px;">Table of contents</h2>
+<br><br>
+<ul>
+  <li><a href="#quien-es-mark-williams" style="color: #00c2ff;">¿Quién es Mark Williams?</a></li>
+  <br><br>
+  <li><a href="#la-mbct" style="color: #00c2ff;">La MBCT: Terapia Cognitiva basada en la Atención Plena</a></li>
+  <br><br>
+  <li><a href="#fundador-de-centros" style="color: #00c2ff;">Fundador de Centros de Atención Plena</a></li>
+  <br><br>
+  <li><a href="#libros-semillales" style="color: #00c2ff;">Libros Seminales sobre Atención Plena</a></li>
+  <br><br>
+  <li><a href="#enfoque-practico" style="color: #00c2ff;">Enfoque Práctico de la Atención Plena</a></li>
+  <br><br>
+  <li><a href="#impacto-y-reconocimiento" style="color: #00c2ff;">Impacto y Reconocimiento</a></li>
+  <br><br>
+  <li><a href="#exploraciones-recientes" style="color: #00c2ff;">Exploraciones Recientes de Williams</a></li>
+  <br><br>
+  <li><a href="#frequently-asked-questions" style="color: #00c2ff;">Preguntas Frecuentes</a></li>
+</ul>
+<br><br>
+<p style="font-size: 20px;">Es probable que hayas oído hablar de la atención plena (o mindfulness en inglés) <a href="/blog/mindfulness-importancia" style="color: #00c2ff;">(fuente)</a>. En el mundo estresado y agitado de hoy, esta práctica ofrece un espacio de calma y entendimiento. Pero, ¿has oído hablar de Mark Williams? Este hombre es un pilar fundamental en el desarrollo moderno de la atención plena y sus contribuciones a la psicología y a la terapia son impresionantes. Vamos a explorar su vida, su trabajo y cómo sus descubrimientos pueden beneficiarnos a todos.</p>
+<br><br>
+<h2 id="quien-es-mark-williams" style="border-bottom: 2px solid #00c2ff; padding-bottom: 5px;">¿Quién es Mark Williams?</h2>
+<br><br>
+<p style="font-size: 20px;">Primero, es importante entender quién es Mark Williams. Para muchos, él es mejor conocido por ser el cofundador de la <a href="/blog/mbct-definicion" style="color: #00c2ff;">Terapia Cognitiva basada en la Atención Plena (MBCT)</a> y por su trabajo en la <a href="/blog/tratamiento-depresion" style="color: #00c2ff;">prevención y el tratamiento de la depresión</a> (fuente). Como ex Profesor de Psicología Clínica de la Universidad de Oxford, Williams fue instrumental en la fundación de centros influyentes de atención plena tanto en las universidades de Oxford como Bangor <a href="/blog/centros-atencion-plena" style="color: #00c2ff;">(fuente)</a>.</p>
+<br><br>
+<h2 id="la-mbct" style="border-bottom: 2px solid #00c2ff; padding-bottom: 5px;">La MBCT: Terapia Cognitiva basada en la Atención Plena</h2>
+<br><br>
+<p style="font-size: 20px;">La MBCT es una de las contribuciones más notables de Williams. Desarrollada en colaboración con colegas, esta intervención basada en evidencia está diseñada para evitar recaídas en la depresión integrando los principios de la terapia cognitiva con prácticas de atención plena <a href="/blog/tratamiento-depresion" style="color: #00c2ff;">(fuente)</a>.</p>
+<br><br>
+<h2 id="fundador-de-centros" style="border-bottom: 2px solid #00c2ff; padding-bottom: 5px;">Fundador de Centros de Atención Plena</h2>
+<br><br>
+<p style="font-size: 20px;">Además del desarrollo de la MBCT, Williams ha jugado un papel crucial en la fundación de los centros de atención plena. Fue él quien estableció el "Centro de Investigación y Práctica de la Atención Plena" en la Universidad de Bangor, y luego fundó el "Centro de Atención Plena de Oxford". Estas instituciones han desempeñado un papel central en la investigación, enseñanza y difusión de las prácticas de atención plena <a href="/blog/centros-atencion-plena" style="color: #00c2ff;">(fuente)</a>.</p>
+<br><br>
+<h2 id="libros-semillales" style="border-bottom: 2px solid #00c2ff; padding-bottom: 5px;">Libros Seminales sobre Atención Plena</h2>
+<br><br>
+<p style="font-size: 20px;">Williams también es coautor de varios <strong>libros seminales</strong> sobre atención plena, incluyendo "El Camino Atento a través de la Depresión" y "Atención Plena: Un Plan de Ocho Semanas para Encontrar la Paz en un Mundo Frantic" <a href="/blog/libros-mark-williams" style="color: #00c2ff;">(fuente)</a>. Estos libros presentan de forma accesible los principios y la práctica de la atención plena.</p>
+<br><br>
+<h2 id="enfoque-practico" style="border-bottom: 2px solid #00c2ff; padding-bottom: 5px;">Enfoque Práctico de la Atención Plena</h2>
+<br><br>
+<p style="font-size: 20px;">En su definición de atención plena, Williams nos propone prestar atención a los pensamientos, sentimientos y sensaciones corporales del momento presente sin juicio, fomentando la autocomprensión y la aceptación compasiva. Su enfoque de ocho semanas incluye ejercicios diseñados para desarrollar la conciencia corporal, manejar emociones difíciles y liberar hábitos que ayudan a romper los patrones de pensamiento negativos. Subraya también el papel dual de la amabilidad y la paciencia al reaccionar a nuestra mente errante, cualidades que se han demostrado para mejorar la <a href="/blog/ansiedad-depresion" style="color: #00c2ff;">ansiedad y la depresión</a> <a href="/blog/ansiedad-depresion" style="color: #00c2ff;">(fuentes)</a>.</p>
+<br><br>
+<h2 id="impacto-y-reconocimiento" style="border-bottom: 2px solid #00c2ff; padding-bottom: 5px;">Impacto y Reconocimiento</h2>
+<br><br>
+<p style="font-size: 20px;">El impacto de su trabajo puede verse en la vastedad de su investigación. Williams ha dedicado su vida a centrar sus estudios en el tratamiento y prevención de la depresión y comportamiento suicida, incorporando la atención plena para mejorar los resultados de salud mental. Ha colaborado con Aaron Beck, fundador de la terapia cognitiva, incorporando técnicas terapéuticas cognitivas en intervenciones basadas en atención plena <a href="/blog/tratamiento-depresion" style="color: #00c2ff;">(fuente)</a>. Su labor es reconocida tanto en la psicología académica como en los recursos prácticos de autoayuda <a href="/blog/libros-mark-williams" style="color: #00c2ff;">(fuentes)</a>.</p>
+<br><br>
+<h2 id="exploraciones-recientes" style="border-bottom: 2px solid #00c2ff; padding-bottom: 5px;">Exploraciones Recientes de Williams</h2>
+<br><br>
+<p style="font-size: 20px;">En su trabajo más reciente, Williams continúa explorando cómo profundizar en la atención plena a través de la atención directa a los tonos de sentimiento (vedanā), que aumenta aún más el impacto de las prácticas de atención plena en la vida cotidiana <a href="/blog/mindfulness-importancia" style="color: #00c2ff;">(fuente)</a>.</p>
+<br><br>
+<h2 style="border-bottom: 2px solid #00c2ff; padding-bottom: 5px;">Resumen de Contribuciones de Mark Williams</h2>
+<br><br>
+<table style="font-size: 20px;">
+  <tr>
+    <th>Contribución</th>
+    <th>Descripción</th>
+    <th>Obras y colaboradores clave</th>
+  </tr>
+  <tr>
+    <td>Terapia Cognitiva basada en la Atención Plena (MBCT)</td>
+    <td>Integra atención plena y terapia cognitiva para prevenir recaídas en la depresión</td>
+    <td>Colaboradores: Teasdale, Segal, Kabat-Zinn</td>
+  </tr>
+  <tr>
+    <td>Centros de Atención Plena</td>
+    <td>Fundó centros de investigación y enseñanza en Oxford y Bangor</td>
+    <td>Obra clave: Centro de Atención Plena de Oxford</td>
+  </tr>
+  <tr>
+    <td>Libros</td>
+    <td>Guías prácticas e investigación fundamental</td>
+    <td>Colaborador: Penman; Libros: "Atención Plena", "Camino Atento a través de la Depresión" <a href="/blog/libros-mark-williams" style="color: #00c2ff;">(fuente)</a></td>
+  </tr>
+  <tr>
+    <td>Profundizando en la Atención Plena</td>
+    <td>Enfoque en sostener la atención plena y la conciencia del tono de sentimientos</td>
+    <td>Obra próxima: "Atención Plena Profunda" (2023)</td>
+  </tr>
+</table>
+<br><br>
+<p style="font-size: 20px;">En resumen, Mark Williams es considerado uno de los arquitectos centrales de la atención plena moderna en la psicología, a través de sus programas de tratamiento pioneros y su labor para hacer la atención plena accesible al público.</p>
+<br><br>
+<p style="font-size: 20px;">Te invitamos a explorar más sus obras y aplicar las enseñanzas de Williams en tu propia vida. Quién sabe, tal vez descubras el poder calmante y transformador de la atención plena y veas por ti mismo por qué es un pilar en el mundo de la psicología hoy en día.</p>
+<br><br>
+<h2 style="border-bottom: 2px solid #00c2ff; padding-bottom: 5px;">Preguntas Frecuentes</h2>
+<br><br>
+<ul>
+  <li><a href="#que-es-la-atencion-plena" style="color: #00c2ff;">¿Qué es la atención plena?</a></li>
+  <br><br>
+  <li><a href="#como-puede-ayudarme" style="color: #00c2ff;">¿Cómo puede ayudarme la atención plena en la vida diaria?</a></li>
+  <br><br>
+  <li><a href="#puedo-aprender-la-atencion-plena" style="color: #00c2ff;">¿Puedo aprender la atención plena por mi cuenta?</a></li>
+</ul>`,
+  },
+  {
     id: 1,
     slug: 'beneficios-respiracion-consciente',
     title: 'Los 5 beneficios principales de la respiración consciente',
