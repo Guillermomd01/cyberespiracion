@@ -10,6 +10,7 @@ export interface TeamMember {
   role: string;
   bio: string;
   image: string;
+  linkedin: string;
 }
 
 export interface CaseStudy {
@@ -34,8 +35,10 @@ export interface BlogPost {
   title: string;
   excerpt: string;
   date: string;
-  image: string;
+  author: string;
+  ogImage: string;
   slug: string;
+  content: string;
 }
 
 export interface Resource {

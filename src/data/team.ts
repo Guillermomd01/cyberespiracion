@@ -7,14 +7,16 @@ export const teamMembers: TeamMember[] = [
     name: 'Jessica Muñoz',
     role: 'Fundadora y Maestra Principal',
     bio: 'Experta en técnicas de respiración consciente con más de 10 años de experiencia. Certificada en múltiples disciplinas de meditación y mindfulness.',
-    image: '../src/assets/jessica-munoz.jpeg',
+    image: '../src/assets/jessica.png',
+    linkedin: 'https://www.linkedin.com/in/jessicamu%C3%B1oz-respiracionconsciente/',
   },
   {
     id: 2,
     name: 'Guillermo Muñoz',
     role: 'Developer',
     bio: 'Especialista Inteligencia Artificial y Programación.',
-    image: 'https://images.pexels.com/photos/4049672/pexels-photo-4049672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
+    image: '../src/assets/guillermo.png',
+    linkedin: "https://www.linkedin.com/in/guillermo-mu%C3%B1oz-diaz/"
   },
   /** {
     id: 3,

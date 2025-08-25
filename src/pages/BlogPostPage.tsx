@@ -144,7 +144,7 @@ const BlogPostPage: React.FC = () => {
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <Link 
-                                    to="/programas" 
+                                    to="/programas-respiracion-consciente" 
                                     className="bg-white text-primary-600 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors"
                                 >
                                     Ver programas

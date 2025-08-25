@@ -46,8 +46,8 @@ export const blogPosts: BlogPost[] = [
       <h2>7. Mejora la digestión</h2>
       <p>El diafragma masajea suavemente los órganos internos durante la respiración, estimulando el tránsito intestinal y la digestión.</p>
 
-      <h2>Conclusión y llamada a la acción</h2>
-      <p>Incorpora 5 minutos de respiración consciente en tu rutina diaria y prueba estos beneficios por ti mismo. <strong>¿Listo para empezar?</strong> <a href="/programas/renacimiento-celular">Únete a nuestro curso de Renacimiento Celular</a> y explora más ejercicios.</p>`,
+      <h2>Conclusión</h2>
+      <p>Incorpora 5 minutos de respiración consciente en tu rutina diaria y prueba estos beneficios por ti mismo. <strong>¿Listo para empezar?</strong> <a href="/programas-respiracion-consciente/renacimiento-celular">Únete a nuestro curso de Renacimiento Celular</a> y explora más ejercicios.</p>`,
   },
   {
     id: 2,
@@ -89,7 +89,7 @@ Repite 4 veces. Excelente para recuperar el control en situaciones de alta presi
 <p>Lleva estas técnicas en tu móvil o escríbelas en un post-it en tu escritorio. Cada vez que notes tensión, dedica un minuto a respirar conscientemente.</p>
 
 <h2>Invitación a profundizar</h2>
-<p>Si quieres una práctica guiada paso a paso, descubre nuestro <a href="/programas/co-creacion">programa de Co-Creación</a> de 90 días.</p>`
+<p>Si quieres una práctica guiada paso a paso, descubre nuestro <a href="/programas-respiracion-consciente/co-creacion">programa de Co-Creación</a> de 90 días.</p>`
 ,
   },
   {
@@ -135,7 +135,7 @@ Te ayuda a calmar la voz y a proyectar confianza.</p>
 </ul>
 
 <h2>Conclusión</h2>
-<p>Incorpora estas pausas de respiración en tu rutina laboral y nota cómo mejora tu productividad y tu bienestar. <a href="/blog/beneficios-respiracion">Lee también los beneficios generales</a> para complementar tu práctica.</p>`
+<p>Incorpora estas pausas de respiración en tu rutina laboral y nota cómo mejora tu productividad y tu bienestar. <a href="/programas-respiracion-consciente">Descubre todo en lo que Cyberespiracion te va a ayudar</a></p>`
 ,
   },
 ];

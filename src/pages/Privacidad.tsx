@@ -59,7 +59,13 @@ const Privacidad: React.FC = () => {
                                     <p><strong>Domicilio:</strong> Avenida Pedro Diez 38</p>
                                     <p><strong>Email:</strong> hola@cyberespiracion.com</p>
                                     <p><strong>Teléfono:</strong> 605 20 27 81</p>
-                                    <p><strong>Delegado de Protección de Datos:</strong> hello@cyberespiracion.com</p>
+                                    <p><strong>Delegado de Protección de Datos:</strong> Para garantizar la máxima protección de tus datos personales, hemos designado a un Delegado de Protección de Datos (DPO), quien actúa como garante del cumplimiento de la normativa de protección de datos en nuestra organización.
+
+Puedes contactar con nuestro DPO en cualquier momento para cualquier consulta, solicitud o para ejercer tus derechos sobre tus datos personales a través del siguiente correo electrónico:
+
+hola@cyberespiracion.com
+
+El DPO está a tu disposición para atender cualquier cuestión relacionada con el tratamiento de tus datos y con el ejercicio de los derechos de acceso, rectificación, supresión, limitación del tratamiento, portabilidad y oposición, así como cualquier otra solicitud que desees realizar en este ámbito.</p>
                                 </div>
 
                                 <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
@@ -205,8 +211,8 @@ const Privacidad: React.FC = () => {
                                         Para ejercer cualquiera de tus derechos, puedes contactarnos a través de:
                                     </p>
                                     <p className="text-primary-800">
-                                        <strong>Email:</strong> privacidad@cyberespiracion.com<br />
-                                        <strong>Teléfono:</strong> [Número de teléfono]<br />
+                                        <strong>Email:</strong> hola@cyberespiracion.com<br />
+                                        <strong>Teléfono:</strong> 605 20 27 81<br />
                                         <strong>Autoridad de Control:</strong> Agencia Española de Protección de Datos (AEPD)
                                     </p>
                                 </div>
