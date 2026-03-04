@@ -17,7 +17,7 @@ const nextDate = {
   month: "Marzo",
   year: "2026",
   weekday: "Domingo",
-  time: "10:00 – 18:00 h",
+  time: "Por confirmar",
 };
 
 // ─── Brand colors (Cyberespiración palette) ───────────────────────────────────
@@ -71,14 +71,14 @@ const benefits = [
 ];
 
 const agenda = [
-  { hora: "10:00", titulo: "Apertura y bienvenida", tipo: "practica" },
-  { hora: "10:30", titulo: "Bloque teórico: el lenguaje del cuerpo", tipo: "teoria" },
-  { hora: "12:00", titulo: "Sesión de respiración consciente guiada", tipo: "practica" },
-  { hora: "13:30", titulo: "Snack & pausa libre", tipo: "pausa" },
-  { hora: "14:15", titulo: "Integración: hacer consciente lo inconsciente", tipo: "teoria" },
-  { hora: "15:30", titulo: "Meditación y trabajo práctico en parejas", tipo: "practica" },
-  { hora: "17:00", titulo: "Preguntas y respuestas", tipo: "qa" },
-  { hora: "17:45", titulo: "Cierre y compromisos personales", tipo: "practica" },
+  { hora: "", titulo: "Apertura y bienvenida", tipo: "practica" },
+  { hora: "", titulo: "Bloque teórico: el lenguaje del cuerpo", tipo: "teoria" },
+  { hora: "", titulo: "Sesión de respiración consciente guiada", tipo: "practica" },
+  { hora: "", titulo: "Snack & pausa libre", tipo: "pausa" },
+  { hora: "", titulo: "Integración: hacer consciente lo inconsciente", tipo: "teoria" },
+  { hora: "", titulo: "Meditación y trabajo práctico en parejas", tipo: "practica" },
+  { hora: "", titulo: "Preguntas y respuestas", tipo: "qa" },
+  { hora: "", titulo: "Cierre y compromisos personales", tipo: "practica" },
 ];
 
 const faqs = [
@@ -329,7 +329,7 @@ export default function JornadasLanding() {
                 animation: "pulse 2s infinite",
               }}
             />
-            Último domingo de cada mes · Plazas limitadas
+            Plazas limitadas
           </div>
 
           <h1

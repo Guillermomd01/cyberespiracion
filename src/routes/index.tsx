@@ -31,12 +31,12 @@ const AppRoutes = () => {
         <Route path="programas-respiracion-consciente/renacimiento-celular" element={<RenacimientoCelularPage />}/>
         <Route path="programas-respiracion-consciente/co-creacion" element={<CoCreacionPage />} />
         <Route path="/blog/:slug" element={<BlogPostPage />} />
-        <Route path="jornadas" element={<JornadasLanding />} />
         <Route path="aviso-legal" element={<AvisoLegal />} />
         <Route path="privacidad" element={<Privacidad />} />
         <Route path="cookies" element={<Cookies />} />
 
       </Route>
+      <Route path="jornadas" element={<JornadasLanding />} />
     </Routes>
   );
 };
