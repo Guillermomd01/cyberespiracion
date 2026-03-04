@@ -11,6 +11,7 @@ import BlogPage from '../pages/BlogPage';
 import FAQPage from '../pages/FAQPage';
 import ContactPage from '../pages/ContactPage';
 import BlogPostPage from '../pages/BlogPostPage';
+import JornadasLanding from '../pages/JornadasLanding';
 import AvisoLegal from '../pages/AvisoLegal';
 import Privacidad from '../pages/Privacidad';
 import Cookies from '../pages/Cookies'
@@ -30,6 +31,7 @@ const AppRoutes = () => {
         <Route path="programas-respiracion-consciente/renacimiento-celular" element={<RenacimientoCelularPage />}/>
         <Route path="programas-respiracion-consciente/co-creacion" element={<CoCreacionPage />} />
         <Route path="/blog/:slug" element={<BlogPostPage />} />
+        <Route path="jornadas" element={<JornadasLanding />} />
         <Route path="aviso-legal" element={<AvisoLegal />} />
         <Route path="privacidad" element={<Privacidad />} />
         <Route path="cookies" element={<Cookies />} />
