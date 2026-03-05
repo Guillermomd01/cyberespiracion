@@ -15,6 +15,7 @@ import JornadasLanding from '../pages/JornadasLanding';
 import AvisoLegal from '../pages/AvisoLegal';
 import Privacidad from '../pages/Privacidad';
 import Cookies from '../pages/Cookies'
+import RetiroLanding from '../pages/retiroEspaña';
 
 const AppRoutes = () => {
   return (
@@ -37,6 +38,7 @@ const AppRoutes = () => {
 
       </Route>
       <Route path="jornadas" element={<JornadasLanding />} />
+      <Route path="retiro" element={<RetiroLanding/>} />
     </Routes>
   );
 };
